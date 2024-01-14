@@ -1,0 +1,35 @@
+.cityInput{
+    width: 150px;
+    height: 25px;
+    margin-top: 50px;
+    border-radius: 25px;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+.searchIcon{
+    margin-top: 50px;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: white;
+    width: 37px;
+    height: 37px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+  
+
+}
+.dataContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    height: 250px;
+}
+.weatherLocation{
+    font-size: 44px;
+}
+.weatherTemp{
+    font-size: 44px;
+}
