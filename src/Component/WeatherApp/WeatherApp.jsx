@@ -1,5 +1,4 @@
 
-
 import React, { useState } from 'react'
 import './WeatherApp.css'
 import clear_icon from '../Assets/Assets/clear.png'
@@ -20,12 +19,20 @@ export const WeatherApp = () => {
 
 
     const search = async () => {
+    
         const cityInp = document.querySelector('.cityInput');
-      
-        } else {
+        if (!cityInp.value) {
+            alert("Please enter an existing country or city.");
+            return;
+        }else {
             const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityInp.value}&units=Metric&appid=${api_key}`;
 
             const response = await fetch(url);
+            if (!response.ok) {
+                alert("There is no such city! Please enter an existing country or city.");
+                cityInp.value = "";
+                return;
+            }
             const data = await response.json();
 
             const humidity = document.querySelector('.humidity');
