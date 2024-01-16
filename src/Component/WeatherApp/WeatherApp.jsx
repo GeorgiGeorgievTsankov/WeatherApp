@@ -21,8 +21,7 @@ export const WeatherApp = () => {
 
     const search = async () => {
         const cityInp = document.querySelector('.cityInput');
-        if (cityInp.value.length <= 0) {
-            return;
+      
         } else {
             const url = `https://api.openweathermap.org/data/2.5/weather?q=${cityInp.value}&units=Metric&appid=${api_key}`;
 
