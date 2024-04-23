@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e83c9eaa.css",
+    "main.js": "/static/js/main.18b90e2c.js",
+    "static/media/europe-map.jpg": "/static/media/europe-map.031c97d0977cda5a6ba4.jpg",
+    "static/media/cloud.png": "/static/media/cloud.20f353f873a9b27949a9.png",
+    "index.html": "/index.html",
+    "main.e83c9eaa.css.map": "/static/css/main.e83c9eaa.css.map",
+    "main.18b90e2c.js.map": "/static/js/main.18b90e2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e83c9eaa.css",
+    "static/js/main.18b90e2c.js"
+  ]
+}
