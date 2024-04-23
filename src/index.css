@@ -26,7 +26,7 @@ code {
   margin-bottom: 100px;
   flex-direction: column;
   color: white;
-  
+  justify-content: flex-end;
 
 }
 
