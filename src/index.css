@@ -18,15 +18,13 @@ code {
   min-height: 732px;
   border-radius: 20px;
   background: linear-gradient(rgba(62, 111, 202, 0.5), rgba(4, 9, 89, 0.5));
-  margin: auto;
   margin-top: 174px;
   display: flex;
-  padding: 0px 42px;
-  padding-bottom: 30px;
+  padding: 0px 44px;
   margin-bottom: 100px;
   flex-direction: column;
   color: white;
-  justify-content: flex-end;
+  
 
 }
 
@@ -47,6 +45,10 @@ code {
 
 }
 
+.App {
+  text-align: center;
+}
+
 @media screen and (max-width: 724px) {
 
   .container {
@@ -54,17 +56,17 @@ code {
     height: 60vh;
     border-radius: 20px;
     background: linear-gradient(rgba(62, 111, 202, 0.5), rgba(4, 9, 89, 0.5));
-    margin: auto;
     margin-top: 174px;
     display: flex;
     padding: 0px 44px;
-    padding-bottom: 30px;
     margin-bottom: 100px;
     flex-direction: column;
     color: white;
     
   
   }
+  
+}
   
 
 
